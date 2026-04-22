@@ -33,6 +33,23 @@ A procedural house generator that places a randomized, terrain-adaptive elevated
 ## Requirements
  
 See mgai_a1.pdf for full setup and requirements details.
+
+## Usage
+ 
+1. Open a Minecraft world with the GDMC HTTP mod enabled.
+2. Set the build area in the Minecraft chat, e.g.:
+   ```
+   /setbuildarea 0 100 0 100 100 100
+   ```
+3. Run the generator:
+   ```bash
+   python gdpc/Myriana_Miltiadous/myhomes.py
+   ```
+ 
+**Optional tweaks inside `myhomes.py`:**
+- To skip the border, comment out `createborder()` (line 578).
+- For better terrain adaptation (slower), uncomment lines 183, 186, 189, 192.
+- To visualise the heightmaps for terrain evaluation, uncomment lines 451–479.
  
 ## How It Works
  
