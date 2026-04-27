@@ -8,38 +8,22 @@ Procedural Content Generation (PCG) in Minecraft as part of the Modern Game AI (
 ##  Files
  
 minecraft-pcg/
-
-gdpc/
-  gdpc Python framework (copy)
-
-  Myriana_Miltiadous/
-    Generator implementation
-    myhomes.py
-      Main house generation script
-    Mincraft_mgai_Myriana_Miltiadous_report.pdf
-      Report
-    Readme.docx
-
-  examples/
-    GDPC example scripts
-    emerald_city.py
-    quick_example.py
-    visualize_map.py
-    tutorials/
-      Step-by-step GDPC tutorials (1–8)
-
-  gdpc/
-    GDPC library source
-
-  requirements.txt
-  setup.py
-
-gdmc_http_interface-1.0.0.jar
-  GDMC HTTP Interface Minecraft mod
-
-mgai_a1.pdf
-  Assignment
-
+- gdpc/ (GDPC Python framework)
+  - Myriana_Miltiadous/
+    - myhomes.py (main house generator)
+    - Mincraft_mgai_Myriana_Miltiadous_report.pdf (report)
+    - Readme.docx
+  - examples/
+    - emerald_city.py
+    - quick_example.py
+    - visualize_map.py
+    - tutorials/ (steps 1–8)
+  - gdpc/ (library source)
+  - requirements.txt
+  - setup.py
+- gdmc_http_interface-1.0.0.jar (Minecraft mod)
+- mgai_a1.pdf (assignment)
+- README.md
  
 ## Overview
  
