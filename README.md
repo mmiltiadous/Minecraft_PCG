@@ -26,19 +26,16 @@ minecraft-pcg/
 - gdmc_http_interface-1.0.0.jar (Minecraft mod)
 - mgai_a1.pdf (assignment description)
  
- 
-## Requirements
- 
-See mgai_a1.pdf for full setup and requirements details.
 
-## Usage
- 
-1. Open a Minecraft world with the GDMC HTTP mod enabled.
-2. Set the build area in the Minecraft chat, e.g.:
+## How to run
+
+1. See mgai_a1.pdf for full setup and requirements details. 
+2. Open a Minecraft world with the GDMC HTTP mod enabled.
+3. Set the build area in the Minecraft chat, e.g.:
    ```
    /setbuildarea 0 100 0 100 100 100
    ```
-3. Run the generator:
+4. Run the generator:
    ```bash
    python gdpc/Myriana_Miltiadous/myhomes.py
    ```
