@@ -1,7 +1,11 @@
 # Minecraft-pcg
- 
-Procedural Content Generation (PCG) in Minecraft as part of the Modern Game AI (MGAI) course assignment. A Python-based house generator built with the [GDPC](https://github.com/avdstaaij/gdpc) framework, which interfaces with Minecraft Java Edition through the GDMC HTTP mod to place blocks and read terrain live while the game is running.
 
+## Description
+
+Procedural Content Generation (PCG) in Minecraft developed for the Modern Game AI (MGAI) course assignment. This project implements a Python-based house generator using the GDPC
+ framework, which communicates with Minecraft Java Edition through the GDMC HTTP Interface mod to place blocks and read terrain data in real time.
+
+The generator creates a randomized, terrain-adaptive elevated house within a 100×100 build area. The structure is supported by four circular 3×3 pillars and dynamically adjusts its height and materials based on the surrounding environment. It also includes interior decoration, a garden, and a circular staircase for access, demonstrating a complete procedural building pipeline integrated directly with the live Minecraft world.
  
 ##  Files
  
@@ -22,9 +26,6 @@ minecraft-pcg/
 - gdmc_http_interface-1.0.0.jar (Minecraft mod)
 - mgai_a1.pdf (assignment description)
  
-## Description
- 
-A procedural house generator that places a randomized, terrain-adaptive elevated house within a 100×100 Minecraft build area. The house is raised on four circular 3×3 pillars, adapts its height and materials to the environment, and includes interior decoration, a garden, and a circular staircase for access. Communication between Python and Minecraft happens via the GDMC HTTP Interface mod.
  
 ## Requirements
  
